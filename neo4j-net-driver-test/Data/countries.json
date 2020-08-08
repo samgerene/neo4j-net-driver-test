@@ -1,0 +1,458 @@
+[
+  {
+    "countryCode": "AL",
+    "membershipKind": "COOPERATING",
+    "name": "Albania",
+    "identifier": "02ba9b66-89c9-4fba-b877-f68a47ac0315"
+  },
+  {
+    "countryCode": "AR",
+    "membershipKind": "NONE",
+    "name": "Argentina",
+    "identifier": "18551f6f-e3c8-46ec-93d5-dffa462f3e61"
+  },
+  {
+    "countryCode": "AM",
+    "membershipKind": "NONE",
+    "name": "Armenia",
+    "identifier": "e6caeec6-2dee-4257-bff0-79f397cf66db"
+  },
+  {
+    "countryCode": "AT",
+    "membershipKind": "MEMBER",
+    "name": "Austria",
+    "identifier": "186b6e1d-8b1f-4cc9-861f-e38bb686bb57"
+  },
+  {
+    "countryCode": "AU",
+    "membershipKind": "NONE",
+    "name": "Australia",
+    "identifier": "4780da16-7a2f-49e2-ad64-ecb302df88ab"
+  },
+  {
+    "countryCode": "BE",
+    "membershipKind": "MEMBER",
+    "name": "Belgium",
+    "identifier": "398b997f-62f5-47e6-abe5-64ec14bef21e"
+  },
+  {
+    "countryCode": "BA",
+    "membershipKind": "NONE",
+    "name": "Bosnia and Herzegovina",
+    "identifier": "a42c44a0-9248-40c9-92f9-9afbac74bcfd"
+  },
+  {
+    "countryCode": "BG",
+    "membershipKind": "COOPERATING",
+    "name": "Bulgaria",
+    "identifier": "b8a58c79-31c8-4338-9842-fc0d5fb4b99a"
+  },
+  {
+    "countryCode": "CA",
+    "membershipKind": "COOPERATING",
+    "name": "Canada",
+    "identifier": "f882f8da-304a-4a67-9e6d-b7e6864e72f4"
+  },
+  {
+    "countryCode": "CL",
+    "membershipKind": "NONE",
+    "name": "Chile",
+    "identifier": "1cc6f184-9747-4fc5-885b-10f25db22b67"
+  },
+  {
+    "countryCode": "CN",
+    "membershipKind": "NONE",
+    "name": "China",
+    "identifier": "ba311cbf-dbee-44b3-aa60-9b5b11434b78"
+  },
+  {
+    "countryCode": "CO",
+    "membershipKind": "NONE",
+    "name": "Colombia",
+    "identifier": "ea49acfa-14e1-4b78-bcb7-3a5afc7550ef"
+  },
+  {
+    "countryCode": "HR",
+    "membershipKind": "COOPERATING",
+    "name": "Croatia",
+    "identifier": "cfd9dcf5-21e2-401f-9871-c1f0231ad607"
+  },
+  {
+    "countryCode": "CY",
+    "membershipKind": "COOPERATING",
+    "name": "Cyprus",
+    "identifier": "958b8c74-e035-4178-a0c3-48321f99501b"
+  },
+  {
+    "countryCode": "CZ",
+    "membershipKind": "MEMBER",
+    "name": "Czech Republic",
+    "identifier": "fbc816a7-4418-46e7-8f1a-4f4cfa693c73"
+  },
+  {
+    "countryCode": "DK",
+    "membershipKind": "MEMBER",
+    "name": "Denmark",
+    "identifier": "5894fe9e-924d-423a-8a65-58bcd7f07cfc"
+  },
+  {
+    "countryCode": "EE",
+    "membershipKind": "MEMBER",
+    "name": "Estonia",
+    "identifier": "2e6d8c04-bb06-407e-bfd9-987bf34222b5"
+  },
+  {
+    "countryCode": "FK",
+    "membershipKind": "NONE",
+    "name": "Falkland Islands (Malvinas)",
+    "identifier": "14a9a74d-50a5-4791-8582-083a35f72900"
+  },
+  {
+    "countryCode": "FO",
+    "membershipKind": "NONE",
+    "name": "Faroe Islands",
+    "identifier": "1ad70f58-dccd-4f4e-81e1-4a8aa86621e9"
+  },
+  {
+    "countryCode": "FI",
+    "membershipKind": "MEMBER",
+    "name": "Finland",
+    "identifier": "bc967bcc-4419-489b-8d3a-14b42ead0c2c"
+  },
+  {
+    "countryCode": "FR",
+    "membershipKind": "MEMBER",
+    "name": "France",
+    "identifier": "0b012390-b3b1-4ae3-a055-0b65fb1136b6"
+  },
+  {
+    "countryCode": "GF",
+    "membershipKind": "NONE",
+    "name": "French Guiana",
+    "identifier": "e0aba966-1ff4-4915-a55b-e5895704b80f"
+  },
+  {
+    "countryCode": "PF",
+    "membershipKind": "NONE",
+    "name": "French Polynesia",
+    "identifier": "a848c8b3-0c2f-4d89-863d-0663f2e20d5d"
+  },
+  {
+    "countryCode": "GE",
+    "membershipKind": "NONE",
+    "name": "Georgia",
+    "identifier": "eced17e3-9567-41f1-b7fb-aeeb57738d46"
+  },
+  {
+    "countryCode": "DE",
+    "membershipKind": "MEMBER",
+    "name": "Germany",
+    "identifier": "10c3f568-ff2a-4bc0-9a02-646360f1b3cf"
+  },
+  {
+    "countryCode": "GR",
+    "membershipKind": "MEMBER",
+    "name": "Greece",
+    "identifier": "9878d556-789d-422d-910a-5731f053b411"
+  },
+  {
+    "countryCode": "GL",
+    "membershipKind": "NONE",
+    "name": "Greenland",
+    "identifier": "0ada7433-b5fa-4552-adcf-17c65d2ae6bd"
+  },
+  {
+    "countryCode": "HU",
+    "membershipKind": "MEMBER",
+    "name": "Hungary",
+    "identifier": "5a7ad55a-db63-49e4-b3d4-76fea3bc886a"
+  },
+  {
+    "countryCode": "IS",
+    "membershipKind": "NONE",
+    "name": "Iceland",
+    "identifier": "b0ecbefa-d6de-4b7e-912c-e744a1328d92"
+  },
+  {
+    "countryCode": "IN",
+    "membershipKind": "NONE",
+    "name": "India",
+    "identifier": "1d3335a2-0522-4264-b083-e3417eee8264"
+  },
+  {
+    "countryCode": "IE",
+    "membershipKind": "MEMBER",
+    "name": "Ireland",
+    "identifier": "7342d4ed-db70-4165-8a2f-60ea9ba9833c"
+  },
+  {
+    "countryCode": "IL",
+    "membershipKind": "NONE",
+    "name": "Israel",
+    "identifier": "1294d59f-19ab-4e43-91fe-88d38ced8c1f"
+  },
+  {
+    "countryCode": "IT",
+    "membershipKind": "MEMBER",
+    "name": "Italy",
+    "identifier": "da4c83e5-f13b-46ec-b4d8-e866701dbb84"
+  },
+  {
+    "countryCode": "JP",
+    "membershipKind": "NONE",
+    "name": "Japan",
+    "identifier": "6f5439e7-7f79-49e4-853c-37e29ceae04e"
+  },
+  {
+    "countryCode": "KE",
+    "membershipKind": "NONE",
+    "name": "Kenya",
+    "identifier": "dc5288f9-76ec-4de0-8718-19548a634fa7"
+  },
+  {
+    "countryCode": "KR",
+    "membershipKind": "NONE",
+    "name": "Korea, Republic Of",
+    "identifier": "2d4f2d2d-2d63-4112-bf75-84d246f0527c"
+  },
+  {
+    "countryCode": "LV",
+    "membershipKind": "COOPERATING",
+    "name": "Latvia",
+    "identifier": "8023885f-8a7e-4841-8227-dbc137586306"
+  },
+  {
+    "countryCode": "LI",
+    "membershipKind": "NONE",
+    "name": "Liechtenstein",
+    "identifier": "2f716d85-39b8-41c5-8fa2-c494121bcab3"
+  },
+  {
+    "countryCode": "LT",
+    "membershipKind": "COOPERATING",
+    "name": "Lithuania",
+    "identifier": "a1bd52a2-7aa9-4da8-b902-ef67bd1a1b3b"
+  },
+  {
+    "countryCode": "LU",
+    "membershipKind": "MEMBER",
+    "name": "Luxembourg",
+    "identifier": "b2c3fa1a-7732-4704-ba21-4a69a7f863a9"
+  },
+  {
+    "countryCode": "MT",
+    "membershipKind": "COOPERATING",
+    "name": "Malta",
+    "identifier": "046ff1ac-7312-4cbd-9e5a-9ab46e9b2f54"
+  },
+  {
+    "countryCode": "MX",
+    "membershipKind": "NONE",
+    "name": "Mexico",
+    "identifier": "5a0f051a-671a-4e34-811f-99b3a1a5fab9"
+  },
+  {
+    "countryCode": "MA",
+    "membershipKind": "NONE",
+    "name": "Morocco",
+    "identifier": "a2cfb875-cb0e-41c1-82e9-efebebfa47f7"
+  },
+  {
+    "countryCode": "MD",
+    "membershipKind": "NONE",
+    "name": "Moldova, Republic Of",
+    "identifier": "28b2ebeb-353b-42e6-84cb-646492dfb942"
+  },
+  {
+    "countryCode": "ME",
+    "membershipKind": "NONE",
+    "name": "Montenegro",
+    "identifier": "88f5a858-3b85-4814-9a32-20ccc7db7c93"
+  },
+  {
+    "countryCode": "NA",
+    "membershipKind": "NONE",
+    "name": "Namibia",
+    "identifier": "4930f905-1900-4056-a70d-c4675146d4c0"
+  },
+  {
+    "countryCode": "NC",
+    "membershipKind": "NONE",
+    "name": "New Caledonia",
+    "identifier": "ce8c3b50-8fb9-4355-8c75-780c98c751d1"
+  },
+  {
+    "countryCode": "NG",
+    "membershipKind": "NONE",
+    "name": "Nigeria",
+    "identifier": "1d26c55e-02b9-49f5-930e-b47f1402842f"
+  },
+  {
+    "countryCode": "MK",
+    "membershipKind": "NONE",
+    "name": "North Macedonia",
+    "identifier": "b16ad325-b905-40d8-a316-3dd6b254e97f"
+  },
+  {
+    "countryCode": "NO",
+    "membershipKind": "MEMBER",
+    "name": "Norway",
+    "identifier": "1311bb51-3760-47d8-a076-7534b1edc099"
+  },
+  {
+    "countryCode": "PL",
+    "membershipKind": "MEMBER",
+    "name": "Poland",
+    "identifier": "2cb3c754-c93d-4403-bf16-399fe23efbea"
+  },
+  {
+    "countryCode": "PT",
+    "membershipKind": "MEMBER",
+    "name": "Portugal",
+    "identifier": "81b25fc6-2c79-4557-a942-f3282788f280"
+  },
+  {
+    "countryCode": "RE",
+    "membershipKind": "NONE",
+    "name": "Reunion",
+    "identifier": "ba79e6f2-4099-4cf7-9080-67b7d6719227"
+  },
+  {
+    "countryCode": "RO",
+    "membershipKind": "MEMBER",
+    "name": "Romania",
+    "identifier": "c7112b01-031f-4361-8129-8ecb21a0b9db"
+  },
+  {
+    "countryCode": "RU",
+    "membershipKind": "NONE",
+    "name": "Russian Federation",
+    "identifier": "63c80a76-2bae-47aa-b5dc-e43611bfc546"
+  },
+  {
+    "countryCode": "SA",
+    "membershipKind": "NONE",
+    "name": "Saudi Arabia",
+    "identifier": "b344aa9b-2cfc-4daa-9696-6a40286a3cc7"
+  },
+  {
+    "countryCode": "SN",
+    "membershipKind": "NONE",
+    "name": "Senegal",
+    "identifier": "a5b73aa4-9605-41b5-9013-e962e97c2ccf"
+  },
+  {
+    "countryCode": "RS",
+    "membershipKind": "NONE",
+    "name": "Serbia",
+    "identifier": "572e535f-fa0e-48f7-a066-32ec8a980288"
+  },
+  {
+    "countryCode": "SC",
+    "membershipKind": "NONE",
+    "name": "Seychelles",
+    "identifier": "fa791917-6bc3-4b89-a51d-ed7806ef080c"
+  },
+  {
+    "countryCode": "SG",
+    "membershipKind": "NONE",
+    "name": "Singapore",
+    "identifier": "99fba0b8-e299-4e0a-bffc-72e012ac11f1"
+  },
+  {
+    "countryCode": "SK",
+    "membershipKind": "COOPERATING",
+    "name": "Slovakia",
+    "identifier": "0b6fe729-7387-46aa-8f60-1fad3aba020f"
+  },
+  {
+    "countryCode": "SI",
+    "membershipKind": "COOPERATING",
+    "name": "Slovenia",
+    "identifier": "ed3dfabe-b305-465d-bda2-da32f1d83b1b"
+  },
+  {
+    "countryCode": "ZA",
+    "membershipKind": "NONE",
+    "name": "South Africa",
+    "identifier": "eb7e4c99-7f54-49d6-8dcc-a6112c6587fd"
+  },
+  {
+    "countryCode": "ES",
+    "membershipKind": "MEMBER",
+    "name": "Spain",
+    "identifier": "d0221103-b175-48ab-85a3-4ddff776f24a"
+  },
+  {
+    "countryCode": "SE",
+    "membershipKind": "MEMBER",
+    "name": "Sweden",
+    "identifier": "a3d6eee8-e4d2-4fe6-bd6c-96bd9ad0bc64"
+  },
+  {
+    "countryCode": "CH",
+    "membershipKind": "MEMBER",
+    "name": "Switzerland",
+    "identifier": "23762501-f44e-4b3d-a23a-82a1bdda412a"
+  },
+  {
+    "countryCode": "TW",
+    "membershipKind": "NONE",
+    "name": "Taiwan, Province Of China",
+    "identifier": "1320fc64-c710-402c-8d36-4850f24f16cb"
+  },
+  {
+    "countryCode": "NL",
+    "membershipKind": "MEMBER",
+    "name": "The Netherlands",
+    "identifier": "339a7a2a-c84f-448a-bac9-82ded560c68a"
+  },
+  {
+    "countryCode": "TN",
+    "membershipKind": "NONE",
+    "name": "Tunisia",
+    "identifier": "829847a8-aab9-4bab-8029-192b7fbc4b93"
+  },
+  {
+    "countryCode": "TR",
+    "membershipKind": "NONE",
+    "name": "Turkey",
+    "identifier": "e14e29e3-6901-4aa5-9975-96b23422ce07"
+  },
+  {
+    "countryCode": "AN",
+    "membershipKind": "NONE",
+    "name": "Netherlands Antilles",
+    "identifier": "00c1d6dc-b2c6-45f5-8665-f8202cc19e11"
+  },
+  {
+    "countryCode": "UG",
+    "membershipKind": "NONE",
+    "name": "Uganda",
+    "identifier": "69de6bb5-a159-49a7-89c4-8768470d026c"
+  },
+  {
+    "countryCode": "UA",
+    "membershipKind": "NONE",
+    "name": "Ukraine",
+    "identifier": "e5bd244a-5a82-432a-9e3b-14e0e33f5032"
+  },
+  {
+    "countryCode": "AE",
+    "membershipKind": "NONE",
+    "name": "United Arab Emirates",
+    "identifier": "28de3c49-1ef7-4ca6-8b07-a63cc7397c4a"
+  },
+  {
+    "countryCode": "UK",
+    "membershipKind": "MEMBER",
+    "name": "United Kingdom",
+    "identifier": "171d5ef0-0934-42e0-89e1-15e942820800"
+  },
+  {
+    "countryCode": "US",
+    "membershipKind": "NONE",
+    "name": "United States",
+    "identifier": "bf089669-d764-4eed-af23-2319312c0d77"
+  }
+]
