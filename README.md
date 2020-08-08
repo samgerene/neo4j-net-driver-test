@@ -48,3 +48,4 @@ To reproduce this issue do the following:
   - Populate the graph by running the `GraphDBPopulatorTestFixture.Verify_that_graph_can_be_stored_in_neo4j` test (this will take a couple of minutes)
   - Run the `GraphDBReaderTestFixture.Verify_that_country_records_can_beRead` test and see that it does not complete.
   - Inspect the log file in the bin folder named `graph-reader-log-date.txt` and see that the `[DBG] Pull all records in the result stream into memory and return in a list.` statement is the last while it should be the following statement `[DBG] All records pulled into memory and returned in list in xx [ms].`
+  - Run the `HttpGrapDbReaderTestFixture.Verify_results_are_returned` test to verify that the results are returned uing the HTTP API

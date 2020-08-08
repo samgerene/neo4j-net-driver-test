@@ -1,0 +1,8 @@
+﻿{
+  "statements": [
+    {
+      "statement": "MATCH (country:Country) CALL { WITH country OPTIONAL MATCH (person:Person)-[:TRAVELS_TO]->(country) RETURN COLLECT(DISTINCT person.identifier) AS person_TRAVELS_TO_country } CALL { WITH country OPTIONAL MATCH (travelAgency:TravelAgency)-[:FLYING_TO]->(country) RETURN COLLECT(DISTINCT travelAgency.identifier) AS travelAgency_FLYING_TO_country } RETURN country {.* , PERSON_TRAVELS_TO_COUNTRY: person_TRAVELS_TO_country, TRAVEL_AGENCY_FLYING_TO_COUNTRY: travelAgency_FLYING_TO_country }",
+      "includeStats": false
+    }
+  ]
+}
