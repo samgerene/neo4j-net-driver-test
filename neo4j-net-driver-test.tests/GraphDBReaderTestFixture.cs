@@ -50,6 +50,16 @@ namespace neo4j_net_driver_test.tests
         }
 
         [Test]
+        public async Task Verify_that_country_records_can_beRead_using_ToListAsync()
+        {
+            var session = driver.AsyncSession();
+
+            var records = await this.graphDbReader.ReadToListAsync(session);
+
+            Assert.That(records.Count, Is.EqualTo(76));
+        }
+
+        [Test]
         public async Task Verify_that_country_records_can_beRead()
         {
             var session = driver.AsyncSession();

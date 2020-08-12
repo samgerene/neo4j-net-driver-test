@@ -39,7 +39,7 @@ namespace neo4j_net_driver_test
         /// The <see cref="IAsyncSession"/>
         /// </param>
         /// <returns></returns>
-        public async Task<List<IRecord>> Read(IAsyncSession session)
+        public async Task<List<IRecord>> ReadToListAsync(IAsyncSession session)
         {
             var cypher = new StringBuilder("MATCH (country:Country)");
             cypher.AppendLine("CALL { WITH country OPTIONAL MATCH (person:Person)-[:TRAVELS_TO]->(country) RETURN COLLECT(DISTINCT person.identifier) AS person_TRAVELS_TO_country }");
@@ -61,6 +61,48 @@ namespace neo4j_net_driver_test
             sw.Restart();
             Log.Debug("Pull all records in the result stream into memory and return in a list.");
             var records = await cursor.ToListAsync();
+            Log.Debug("All records pulled into memory and returned in list in {sw} [ms].", sw.ElapsedMilliseconds);
+
+            return records;
+        }
+
+        /// <summary>
+        /// Read the <see cref="Country"/> objects from the Neo4j database
+        /// </summary>
+        /// <param name="session">
+        /// The <see cref="IAsyncSession"/>
+        /// </param>
+        /// <returns></returns>
+        public async Task<List<IRecord>> Read(IAsyncSession session)
+        {
+            var cypher = new StringBuilder("MATCH (country:Country)");
+            cypher.AppendLine("CALL { WITH country OPTIONAL MATCH (person:Person)-[:TRAVELS_TO]->(country) RETURN COLLECT(DISTINCT person.identifier) AS person_TRAVELS_TO_country }");
+            cypher.AppendLine("CALL { WITH country OPTIONAL MATCH (travelAgency:TravelAgency)-[:FLYING_TO]->(country) RETURN COLLECT(DISTINCT travelAgency.identifier) AS travelAgency_FLYING_TO_country }");
+            cypher.AppendLine("RETURN country {.*");
+            cypher.AppendLine(", PERSON_TRAVELS_TO_COUNTRY: person_TRAVELS_TO_country");
+            cypher.AppendLine(", TRAVEL_AGENCY_FLYING_TO_COUNTRY: travelAgency_FLYING_TO_country ");
+            cypher.AppendLine("}");
+
+            Log.Debug(cypher.ToString());
+
+            var readTransaction = await session.BeginTransactionAsync();
+
+            var sw = Stopwatch.StartNew();
+            Log.Debug("Start Running Transaction");
+            var cursor = await readTransaction.RunAsync(cypher.ToString());
+            Log.Debug("Ran query and returned a task of result stream in {sw} [ms]", sw.ElapsedMilliseconds);
+
+            sw.Restart();
+            Log.Debug("Pull all records in the result stream into memory and return in a list.");
+            var records = new List<IRecord>();
+            while (true)
+            {
+                if (await cursor.FetchAsync().ConfigureAwait(false))
+                    records.Add(cursor.Current);
+                else
+                    break;
+            }
+
             Log.Debug("All records pulled into memory and returned in list in {sw} [ms].", sw.ElapsedMilliseconds);
 
             return records;
